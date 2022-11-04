@@ -1,0 +1,46 @@
+.detailing__block{
+    max-width: 570px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    &-title{
+        margin-left: 30px;
+        max-width: 300px;
+        margin-bottom: 5px;
+        font-size: 18px;
+        text-align: center;
+        
+        text-transform: uppercase;
+    }
+    .service__block-img{
+        display: flex;
+        justify-content: flex-start;
+        gap: 30px;
+    }
+}
+.detailing__row{
+    gap: 50px;
+}
+.table__price{
+    margin-top: 150px;
+    .table__romb{
+        justify-content: center;
+    }
+    .first-tr{
+        font-size: 22px;
+        text-transform: uppercase;
+    }
+    &-table{
+        tr{
+            .first-td{
+                color: #cc8c41;
+            }
+        }
+        td{
+            text-align: center;
+            border-top: 1px solid #fff;
+            font-size: 18px;
+            padding: 30px 50px 30px 30px;
+        }
+    }
+}
