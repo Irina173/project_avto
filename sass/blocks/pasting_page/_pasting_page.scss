@@ -1,0 +1,68 @@
+.header{
+    .header__pasting_page-title{
+        font-size: 46px;
+    }
+
+    .pasting_square{
+        width: 100px;
+    }
+    .our__services-pasting{
+        
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    position: absolute;
+    top: 25%;
+    left: 18%;
+    text-align: center;
+    letter-spacing: 0.05em;
+   
+    text-transform: uppercase;
+    }
+}
+.about__column-box-pasting{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-right: 130px;
+}
+.pasting-romb{
+    margin-bottom: 45px;
+}
+.pasting-slide-text{
+    padding: 0px 15px;
+    font-size: 14px;
+}
+.about__column-sponsor-row{
+    display: flex;
+    height: 40px;
+    justify-content: flex-start;
+    gap: 100px;
+    margin-bottom: 50px;
+}
+.sponsor-star{
+    
+}
+.table__price{
+    margin-top: 150px;
+    .table__romb{
+        justify-content: center;
+    }
+    .first-tr{
+        font-size: 22px;
+        text-transform: uppercase;
+    }
+    &-table{
+        tr{
+            .first-td{
+                color:$main-color;
+            }
+        }
+        td{
+            text-align: center;
+            border-top: 1px solid #fff;
+            font-size: 18px;
+            padding: 30px 35px 30px 30px;
+        }
+    }
+}

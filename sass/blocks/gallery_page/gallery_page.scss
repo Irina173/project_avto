@@ -1,0 +1,36 @@
+.header__gallery__main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    .header__gallery__icon{
+        margin-top: 275px;
+    }
+}
+.romb__gallery{
+    margin-bottom: 150px;
+}
+.gallery_page{
+
+    &__row{
+        margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    justify-content: flex-start;
+    gap: 90px;
+}
+    &__block{
+        background: #263326;
+        max-width: 525px;
+        padding: 25px;
+        
+        img{
+            width: 475px;
+            
+            object-fit: cover;
+        }
+    }
+  
+}

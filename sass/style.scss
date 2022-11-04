@@ -1,0 +1,45 @@
+@import 'libs/bootstrap-reboot.min';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+
+
+@import 'base/variables';
+
+* {
+    
+    margin: 0;
+    padding: 0;
+    color: #fff;
+   
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #141414;
+}
+html {
+    scroll-behavior: smooth;
+  }
+  
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+
+
+p {
+    margin: 0;
+}
+
+@import 'blocks/headers';
+@import 'blocks/achievements';
+@import 'blocks/slider';
+@import 'blocks/service';
+@import 'blocks/gallery';
+@import 'blocks/form';
+@import 'blocks/footer';
+@import 'blocks/about';
+@import 'blocks/pasting_page/pasting_page';
+@import 'blocks/detailing_page/detailing_page.scss';
+@import 'blocks/gallery_page/gallery_page.scss';
+@import 'blocks/media';
